@@ -38,7 +38,7 @@ On souhaite que p95 = 300ms et p99 = 800ms
 
 # Activité 3
 
-### Partie 2 - Loki
+## Partie 2 - Loki
 
 ***1. Qu’est ce que Loki ?***
 
@@ -92,7 +92,7 @@ Le service gateway est le serveur nginx qui va servir de reverse proxy pour perm
 
 https://grafana.com/docs/grafana/latest/explore/logs-integration/
 
-### Partie 2 - Logs
+## Partie 2 - Logs
 
 ***7. L’application a une structure de logs plutôt constante, quels champs sont contenus dans les logs ? Quelle données représentent-il?***
 
@@ -125,7 +125,9 @@ On doit le pluger à tous les containers de logs. Promtail se chargera alors de 
 
 ![](https://i.imgur.com/sieOMvr.png)
 
-### Partie 3 - Elasticsearch
+## Partie 3 - Elasticsearch
+
+### 1. Mise en place d’Elasticsearch et Kibana
 
 ***11. qu’est-ce qu’elasticsearch ?***
 
@@ -151,6 +153,7 @@ Dans Elasticsearch, un index est un ensemble de documents qui ont des caractéri
 
 Lucene est une bibliothèque de recherche d'informations open-source, également créée par Apache. Elasticsearch utilise Lucene pour effectuer des recherches, des analyses de texte, de la recherche de phrases et de la recherche de proximité. Elasticsearch s'appuie sur Lucene pour la plupart de ses fonctionnalités de recherche et d'indexation.
 
+### 2. Filebeat
 
 ***16. Qu’est-ce que Filebeat ?***
 
@@ -166,6 +169,12 @@ Auditbeat : pour la collecte de données d'audit système et de sécurité.
 Heartbeat : pour la surveillance des services et des serveurs.
 Functionbeat : pour la collecte de données à partir de fonctions cloud, telles que AWS Lambda.
 
-### Partie 4 - retour d’expérience
+### 3. Dashboard
+
+<img width="1440" alt="Capture d’écran 2023-04-03 à 15 40 53" src="https://user-images.githubusercontent.com/45208166/229527776-fe3c1616-eabe-49f9-a52e-8ba638be0907.png">
+<img width="709" alt="Capture d’écran 2023-04-03 à 15 40 38" src="https://user-images.githubusercontent.com/45208166/229527803-5f9f399f-9701-449f-a30a-d0f1163a6f4b.png">
+
+
+## Partie 4 - retour d’expérience
 
 L’utilisation de Loki et d’Elasticsearch pour la collecte de logs est une excellente solution. Loki est conçu pour la collecte de logs et Elasticsearch pour la recherche et l’indexation, ce qui les rend complémentaires. Ensemble, ils peuvent offrir une grande capacité de stockage et une recherche efficace des logs pour une meilleure gestion des logs systèmes. En utilisant ces outils, les entreprises peuvent facilement collecter et stocker des données de log pour une analyse ultérieure. Dans l’ensemble, l’utilisation de Loki et d’Elasticsearch est recommandée pour une collecte de log efficace et complète.
