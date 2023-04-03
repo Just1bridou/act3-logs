@@ -38,6 +38,7 @@ On souhaite que p95 = 300ms et p99 = 800ms
 
 # Activité 3
 
+### Partie 2 - Loki
 
 ***1. Qu’est ce que Loki ?***
 
@@ -91,6 +92,7 @@ Le service gateway est le serveur nginx qui va servir de reverse proxy pour perm
 
 https://grafana.com/docs/grafana/latest/explore/logs-integration/
 
+### Partie 2 - Logs
 
 ***7. L’application a une structure de logs plutôt constante, quels champs sont contenus dans les logs ? Quelle données représentent-il?***
 
@@ -123,6 +125,7 @@ On doit le pluger à tous les containers de logs. Promtail se chargera alors de 
 
 ![](https://i.imgur.com/sieOMvr.png)
 
+### Partie 3 - Elasticsearch
 
 ***11. qu’est-ce qu’elasticsearch ?***
 
@@ -162,3 +165,7 @@ Winlogbeat : pour la collecte de données d'événements Windows.
 Auditbeat : pour la collecte de données d'audit système et de sécurité.
 Heartbeat : pour la surveillance des services et des serveurs.
 Functionbeat : pour la collecte de données à partir de fonctions cloud, telles que AWS Lambda.
+
+### Partie 4 - retour d’expérience
+
+L’utilisation de Loki et d’Elasticsearch pour la collecte de logs est une excellente solution. Loki est conçu pour la collecte de logs et Elasticsearch pour la recherche et l’indexation, ce qui les rend complémentaires. Ensemble, ils peuvent offrir une grande capacité de stockage et une recherche efficace des logs pour une meilleure gestion des logs systèmes. En utilisant ces outils, les entreprises peuvent facilement collecter et stocker des données de log pour une analyse ultérieure. Dans l’ensemble, l’utilisation de Loki et d’Elasticsearch est recommandée pour une collecte de log efficace et complète.
