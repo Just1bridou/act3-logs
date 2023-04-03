@@ -4,7 +4,7 @@
 
 **Grafana 👉 https://m7.vms.re:3000/**
 
-**Elasticsearch 👉 https://m7.vms.re:5601/**
+**Elasticsearch 👉 https://m7.vms.re:5601/ (bypass token : http://m7.vms.re:5601/?code=599355)**
 
 
 # Activité 2
