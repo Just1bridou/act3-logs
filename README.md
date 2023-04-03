@@ -1,6 +1,6 @@
-# GNU Linux Avancé
+# 🖥 GNU Linux Avancé
 
-*Charles, Justin, Guillian*
+*👨‍💻 Charles, Justin, Guillian*
 
 **Grafana 👉 https://m7.vms.re:3000/**
 
